@@ -1,0 +1,10 @@
+﻿<!DOCTYPE html>
+<div class="container">
+    <h2>View 2</h2>
+		Name: <br />
+		<input type="text" ng-model="filter.name" />
+		<br />
+		<ul>
+			<li ng-repeat="cust in customers | filter:{name: filter.name} | orderBy:'city'">{{cust.name}} - {{cust.city}}</li>
+		</ul>
+</div>

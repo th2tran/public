@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="1af1a67e-6a0b-4170-87a7-60f0e4ca3bc2" Version="1.0.0.0" Publisher="CN=th2tran" />
+  <Properties>
+    <DisplayName>AngularJS.App1</DisplayName>
+    <PublisherDisplayName>th2tran</PublisherDisplayName>
+    <Logo>_assets\images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="AngularJS.App1" Logo="_assets\images\logo.png" SmallLogo="_assets\images\smalllogo.png" Description="AngularJS.App1" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="_assets\images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
